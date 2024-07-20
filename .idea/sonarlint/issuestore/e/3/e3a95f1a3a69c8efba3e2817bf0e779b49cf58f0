@@ -1,0 +1,11 @@
+
+Ù
+java:S1598"∑This file "NotificationsController.java" should be located in "ec\fin\crea\Controller" directory, not in "D:\FUENTESDAVID\PRUEBA\evaluacion-java\src\main\java\ec\fin\java\Controller".(Ì›ÏêJ$ad0966e1-1e9e-4a86-a07a-f50e98ddcc04
+ï	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì›ÏêJ$18be68e5-587e-4d96-a477-76f711a4b4ab
+É	java:S125"<This block of commented-out lines of code should be removed.( ¨à∂˛ˇˇˇˇ8Åå⁄Ôå2J$c821ce47-0394-4758-bcf2-73341314d072
+∂
+java:S1130$"tRemove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.(Ë⁄ÆH8ÆñŸÔå2J$8fd8075b-f70c-4ce6-8cb3-7186a706fdac
+Æ
+java:S1130$"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ë⁄ÆH8ÆñŸÔå2J$b7426496-68c3-4602-8aac-0e7394576a9a
+≥
+java:S1130$"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(Ë⁄ÆH8ÆñŸÔå2J$bfa1e50f-0fb4-452e-90c0-4f1c48f88b87

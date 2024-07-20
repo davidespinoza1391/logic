@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="ec.fin.crea.entity.AudiCorreosEntity">
+        <table name="AUDI_CORREOS" schema="COOPCREA" catalog=""/>
+        <attributes>
+            <id name="idCorreo">
+                <column name="ID_CORREO"/>
+            </id>
+            <basic name="mailDestino">
+                <column name="MAIL_DESTINO"/>
+            </basic>
+            <basic name="asunto">
+                <column name="ASUNTO"/>
+            </basic>
+            <basic name="titulo">
+                <column name="TITULO"/>
+            </basic>
+            <basic name="request">
+                <column name="REQUEST"/>
+            </basic>
+            <basic name="codigoCanal">
+                <column name="CODIGO_CANAL"/>
+            </basic>
+            <basic name="estado">
+                <column name="ESTADO"/>
+            </basic>
+            <basic name="response">
+                <column name="RESPONSE"/>
+            </basic>
+            <basic name="fechaSistema">
+                <column name="FECHA_SISTEMA"/>
+            </basic>
+            <basic name="fechaActualizacion">
+                <column name="FECHA_ACTUALIZACION"/>
+            </basic>
+            <basic name="terminal">
+                <column name="TERMINAL"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

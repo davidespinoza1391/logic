@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="ec.fin.crea.entity.PlantillaCorreoEntity">
+        <table name="PLANTILLA_CORREO" schema="COOPCREA" catalog=""/>
+        <attributes>
+            <id name="idPlantilla">
+                <column name="ID_PLANTILLA"/>
+            </id>
+            <basic name="titulo">
+                <column name="TITULO"/>
+            </basic>
+            <basic name="asunto">
+                <column name="ASUNTO"/>
+            </basic>
+            <basic name="mailRemitente">
+                <column name="MAIL_REMITENTE"/>
+            </basic>
+            <basic name="plantilla">
+                <column name="PLANTILLA"/>
+            </basic>
+            <basic name="fechaSistema">
+                <column name="FECHA_SISTEMA"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="ec.fin.crea.entity.TcEstadosdecuentaEntity">
+        <table name="TC_ESTADOSDECUENTA" schema="COOPCREA" catalog=""/>
+        <attributes>
+            <basic name="nombrecliente">
+                <column name="NOMBRECLIENTE"/>
+            </basic>
+            <basic name="identifica">
+                <column name="IDENTIFICA"/>
+            </basic>
+            <basic name="tarjetaclientemask">
+                <column name="TARJETACLIENTEMASK"/>
+            </basic>
+            <basic name="direccion">
+                <column name="DIRECCION"/>
+            </basic>
+            <basic name="ciudad">
+                <column name="CIUDAD"/>
+            </basic>
+            <basic name="telefono1">
+                <column name="TELEFONO1"/>
+            </basic>
+            <basic name="telefono2">
+                <column name="TELEFONO2"/>
+            </basic>
+            <basic name="cupolocal">
+                <column name="CUPOLOCAL"/>
+            </basic>
+            <basic name="utilizadolocal">
+                <column name="UTILIZADOLOCAL"/>
+            </basic>
+            <basic name="saldodiferido">
+                <column name="SALDODIFERIDO"/>
+            </basic>
+            <basic name="disponiblelocal">
+                <column name="DISPONIBLELOCAL"/>
+            </basic>
+            <basic name="cuotadelmeslocal">
+                <column name="CUOTADELMESLOCAL"/>
+            </basic>
+            <basic name="debitoslocal">
+                <column name="DEBITOSLOCAL"/>
+            </basic>
+            <basic name="diferidocuotalocaltotal">
+                <column name="DIFERIDOCUOTALOCALTOTAL"/>
+            </basic>
+            <basic name="pagominimolocal">
+                <column name="PAGOMINIMOLOCAL"/>
+            </basic>
+            <basic name="fechaemision">
+                <column name="FECHAEMISION"/>
+            </basic>
+            <basic name="fechacorteanterior">
+                <column name="FECHACORTEANTERIOR"/>
+            </basic>
+            <basic name="fechacorte">
+                <column name="FECHACORTE"/>
+            </basic>
+            <basic name="numpagosvencidoslocal">
+                <column name="NUMPAGOSVENCIDOSLOCAL"/>
+            </basic>
+            <basic name="fechapago">
+                <column name="FECHAPAGO"/>
+            </basic>
+            <basic name="pagosvencidoslocal">
+                <column name="PAGOSVENCIDOSLOCAL"/>
+            </basic>
+            <basic name="saldoactuallocal">
+                <column name="SALDOACTUALLOCAL"/>
+            </basic>
+            <basic name="saldoanteriorlocal">
+                <column name="SALDOANTERIORLOCAL"/>
+            </basic>
+            <basic name="creditoslocal">
+                <column name="CREDITOSLOCAL"/>
+            </basic>
+            <basic name="debitoslocaltot">
+                <column name="DEBITOSLOCALTOT"/>
+            </basic>
+            <basic name="saldocapitalanterior">
+                <column name="SALDOCAPITALANTERIOR"/>
+            </basic>
+            <basic name="diascorte">
+                <column name="DIASCORTE"/>
+            </basic>
+            <basic name="tasaintrotativo">
+                <column name="TASAINTROTATIVO"/>
+            </basic>
+            <basic name="capitalvencido">
+                <column name="CAPITALVENCIDO"/>
+            </basic>
+            <basic name="diasmora">
+                <column name="DIASMORA"/>
+            </basic>
+            <basic name="fechainivencido">
+                <column name="FECHAINIVENCIDO"/>
+            </basic>
+            <basic name="tasademora">
+                <column name="TASADEMORA"/>
+            </basic>
+            <basic name="tasaefectiva">
+                <column name="TASAEFECTIVA"/>
+            </basic>
+            <basic name="factor02">
+                <column name="FACTOR02"/>
+            </basic>
+            <basic name="factor03">
+                <column name="FACTOR03"/>
+            </basic>
+            <basic name="factor06">
+                <column name="FACTOR06"/>
+            </basic>
+            <basic name="factor09">
+                <column name="FACTOR09"/>
+            </basic>
+            <basic name="factor12">
+                <column name="FACTOR12"/>
+            </basic>
+            <basic name="factor18">
+                <column name="FACTOR18"/>
+            </basic>
+            <basic name="factor24">
+                <column name="FACTOR24"/>
+            </basic>
+            <basic name="factor36">
+                <column name="FACTOR36"/>
+            </basic>
+            <basic name="factor48">
+                <column name="FACTOR48"/>
+            </basic>
+            <basic name="costodesc01">
+                <column name="COSTODESC01"/>
+            </basic>
+            <basic name="costoval01">
+                <column name="COSTOVAL01"/>
+            </basic>
+            <basic name="costodesc02">
+                <column name="COSTODESC02"/>
+            </basic>
+            <basic name="costoval02">
+                <column name="COSTOVAL02"/>
+            </basic>
+            <basic name="costodesc03">
+                <column name="COSTODESC03"/>
+            </basic>
+            <basic name="costoval03">
+                <column name="COSTOVAL03"/>
+            </basic>
+            <basic name="costodesc04">
+                <column name="COSTODESC04"/>
+            </basic>
+            <basic name="costoval04">
+                <column name="COSTOVAL04"/>
+            </basic>
+            <basic name="costodesc05">
+                <column name="COSTODESC05"/>
+            </basic>
+            <basic name="costoval05">
+                <column name="COSTOVAL05"/>
+            </basic>
+            <basic name="costodesc06">
+                <column name="COSTODESC06"/>
+            </basic>
+            <basic name="costoval06">
+                <column name="COSTOVAL06"/>
+            </basic>
+            <basic name="costodesc07">
+                <column name="COSTODESC07"/>
+            </basic>
+            <basic name="costoval07">
+                <column name="COSTOVAL07"/>
+            </basic>
+            <basic name="costodesc08">
+                <column name="COSTODESC08"/>
+            </basic>
+            <basic name="costoval08">
+                <column name="COSTOVAL08"/>
+            </basic>
+            <basic name="costodesc09">
+                <column name="COSTODESC09"/>
+            </basic>
+            <basic name="costoval09">
+                <column name="COSTOVAL09"/>
+            </basic>
+            <basic name="costodesc10">
+                <column name="COSTODESC10"/>
+            </basic>
+            <basic name="costoval10">
+                <column name="COSTOVAL10"/>
+            </basic>
+            <basic name="costodesc11">
+                <column name="COSTODESC11"/>
+            </basic>
+            <basic name="costoval11">
+                <column name="COSTOVAL11"/>
+            </basic>
+            <basic name="costodesc12">
+                <column name="COSTODESC12"/>
+            </basic>
+            <basic name="costoval12">
+                <column name="COSTOVAL12"/>
+            </basic>
+            <basic name="tarjetatrx">
+                <column name="TARJETATRX"/>
+            </basic>
+            <basic name="nombretarjeta">
+                <column name="NOMBRETARJETA"/>
+            </basic>
+            <basic name="fchtrx">
+                <column name="FCHTRX"/>
+            </basic>
+            <basic name="referencia">
+                <column name="REFERENCIA"/>
+            </basic>
+            <basic name="descripcion">
+                <column name="DESCRIPCION"/>
+            </basic>
+            <basic name="diferidonumcuota">
+                <column name="DIFERIDONUMCUOTA"/>
+            </basic>
+            <basic name="diferidoplazo">
+                <column name="DIFERIDOPLAZO"/>
+            </basic>
+            <basic name="transcodeabr">
+                <column name="TRANSCODEABR"/>
+            </basic>
+            <basic name="valor">
+                <column name="VALOR"/>
+            </basic>
+            <basic name="sourceamount">
+                <column name="SOURCEAMOUNT"/>
+            </basic>
+            <basic name="tasacambio">
+                <column name="TASACAMBIO"/>
+            </basic>
+            <basic name="diferidosaldolocal">
+                <column name="DIFERIDOSALDOLOCAL"/>
+            </basic>
+            <basic name="debitocredito">
+                <column name="DEBITOCREDITO"/>
+            </basic>
+            <basic name="debitostot">
+                <column name="DEBITOSTOT"/>
+            </basic>
+            <basic name="creditostot">
+                <column name="CREDITOSTOT"/>
+            </basic>
+            <basic name="codcuentacab">
+                <column name="CODCUENTACAB"/>
+            </basic>
+            <basic name="codcliente">
+                <column name="CODCLIENTE"/>
+            </basic>
+            <basic name="fchtrxf3">
+                <column name="FCHTRXF3"/>
+            </basic>
+            <basic name="ciclofacturacion">
+                <column name="CICLOFACTURACION"/>
+            </basic>
+            <basic name="aamm">
+                <column name="AAMM"/>
+            </basic>
+            <basic name="tarjetacliente">
+                <column name="TARJETACLIENTE"/>
+            </basic>
+            <basic name="procentaje01">
+                <column name="PROCENTAJE_01"/>
+            </basic>
+            <basic name="procentaje02">
+                <column name="PROCENTAJE_02"/>
+            </basic>
+            <basic name="procentaje03">
+                <column name="PROCENTAJE_03"/>
+            </basic>
+            <basic name="pgoinicial10">
+                <column name="PGOINICIAL_10"/>
+            </basic>
+            <basic name="pgoinicial30">
+                <column name="PGOINICIAL_30"/>
+            </basic>
+            <basic name="pgoinicial50">
+                <column name="PGOINICIAL_50"/>
+            </basic>
+            <basic name="pgomensualxanio10">
+                <column name="PGOMENSUALXANIO_10"/>
+            </basic>
+            <basic name="pgomensualxanio30">
+                <column name="PGOMENSUALXANIO_30"/>
+            </basic>
+            <basic name="pgomensualxanio50">
+                <column name="PGOMENSUALXANIO_50"/>
+            </basic>
+            <basic name="finpagoanio10">
+                <column name="FINPAGOANIO_10"/>
+            </basic>
+            <basic name="finpagoanio30">
+                <column name="FINPAGOANIO_30"/>
+            </basic>
+            <basic name="finpagoanio50">
+                <column name="FINPAGOANIO_50"/>
+            </basic>
+            <basic name="ahorro10">
+                <column name="AHORRO_10"/>
+            </basic>
+            <basic name="ahorro30">
+                <column name="AHORRO_30"/>
+            </basic>
+            <basic name="ahorro50">
+                <column name="AHORRO_50"/>
+            </basic>
+            <basic name="nperaAnio">
+                <column name="NPERA_ANIO"/>
+            </basic>
+            <basic name="nperMes">
+                <column name="NPER_MES"/>
+            </basic>
+            <basic name="pgoproyectado">
+                <column name="PGOPROYECTADO"/>
+            </basic>
+            <basic name="fechaArchivo">
+                <column name="FECHA_ARCHIVO"/>
+            </basic>
+            <basic name="fechaSistema">
+                <column name="FECHA_SISTEMA"/>
+            </basic>
+            <basic name="numRegistro">
+                <column name="NUM_REGISTRO"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

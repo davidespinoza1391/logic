@@ -1,0 +1,19 @@
+
+Œ
+java:S1192-"IDefine a constant instead of duplicating this literal " stops: " 4 times.(Ø›É•8ÅÂãñŒ2J$7f82f1ca-3bd4-46da-b358-22ba5c90d36b
+
+java:S1192)"FDefine a constant instead of duplicating this literal "start" 4 times.(Œ¶†ºüÿÿÿÿ8ÅÂãñŒ2J$7836b1a7-eb38-4d4e-8a11-b3f3f1ab4435
+‘
+java:S1192$"NDefine a constant instead of duplicating this literal "NO SUCH ROUTE" 4 times.(Ç²‡ÿ8ÅÂãñŒ2J$2f63645c-e07a-4626-b101-4e5e2c76efc4
+š
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¡ÁÄÕÿÿÿÿÿ8®ÃãñŒ2J$57f51cab-ed55-4fdc-8825-b622a5562756
+m	java:S106$"+Replace this use of System.out by a logger.(Ç²‡ÿ8°ÃãñŒ2J$0200670e-e80c-4a9c-9743-2819458a8969
+m	java:S106-"+Replace this use of System.out by a logger.(Ø›É•8±ÃãñŒ2J$b90695e5-eaac-4423-a2cf-2e4d86aa6d01
+r	java:S1066"+Replace this use of System.out by a logger.(úîšªıÿÿÿÿ8²ÃãñŒ2J$40e3df48-482f-43df-b160-6d500ca7b5fc
+r	java:S106>"+Replace this use of System.out by a logger.(§£¸œøÿÿÿÿ8²ÃãñŒ2J$b9088402-d2d8-4f5f-afe2-e7d99c8a2692
+r	java:S106G"+Replace this use of System.out by a logger.(®Ùÿÿÿÿÿ8³ÃãñŒ2J$a5480a63-709d-410b-819e-102e772aaa75
+r	java:S106L"+Replace this use of System.out by a logger.(ÌøØŠıÿÿÿÿ8³ÃãñŒ2J$7c06b266-8e02-4d9c-918e-ee999efe5734
+V
+java:S1128"9Remove this unused import 'netscape.javascript.JSObject'.(Å²ÒÌ8éŸìñŒ2
+i
+java:S1068"'Remove this unused "LOG" private field.(ü±é"8´ÃãñŒ2J$59e238e2-ac15-4cc5-96d9-773ac9891b55
